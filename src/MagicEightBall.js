@@ -50,6 +50,9 @@ class MagicEightBall extends React.Component {
     const answer = possibleAnswers[this.state.randomIndex]; 
     return (
       <div id="all">
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+      </style>
         <div id='head'>
         <h1>Ask your question, stranger</h1>
         <input
